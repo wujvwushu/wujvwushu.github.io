@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'story';
+	src: url('a story about the boy.ttf') format('truetype');
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: url("http://jnghyzxm.mg1.4h4l.cn/img/image.php") no-repeat center;
+  background-size: cover;
+font-family: "story";                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+
+.text{position: absolute;
+	left:9%;
+	right:8%;
+	top:29.99%;
+	width: 80%;
+	height: 40%;
+	z-index: 0;
+	}
+
+		
+
+.hitokoto{
+	
+	font-size:1.5rem;
+}
+
+
+.hitokoto2{
+	text-align: center;
+	font-size: 13px;
+}
+
+.dynamic-area1   {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/poster-drop-animate1.png") repeat-x 0px 0px;
+  background-size: cover;
+  animation: posterDrop1 7000s linear infinite;
+}
+
+@keyframes posterDrop1 {
+  from { background-position: 0 0; }
+  to { background-position: 4000% 0; }
+}
+
+.dynamic-area2   {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/poster-drop-animate1.png") repeat-x 0px 0px;
+  background-size: cover;
+  animation: posterDrop2 8000s linear infinite;
+}
+
+@keyframes posterDrop2 {
+  from { background-position: 0 0; }
+  to { background-position: 30000% 0; }
+}

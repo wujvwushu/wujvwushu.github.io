@@ -1,0 +1,21 @@
+// JavaScript Document
+var bodyBgs = [];
+	bodyBgs[0] = "http://music.163.com/song/media/outer/url?id=1331819951.mp3"; 
+	bodyBgs[1] = "http://music.163.com/song/media/outer/url?id=1371327996.mp3"; 
+	bodyBgs[2] = "http://music.163.com/song/media/outer/url?id=523251118.mp3"; 
+	bodyBgs[3] = "http://music.163.com/song/media/outer/url?id=175072.mp3";
+	bodyBgs[4] = "http://music.163.com/song/media/outer/url?id=108493.mp3";
+	bodyBgs[5] = "http://music.163.com/song/media/outer/url?id=108478.mp3"; 
+	bodyBgs[6] = "http://music.163.com/song/media/outer/url?id=108242.mp3";
+	bodyBgs[7] = "http://music.163.com/song/media/outer/url?id=1380874507.mp3";
+	bodyBgs[8] = "http://music.163.com/song/media/outer/url?id=467590816.mp3";
+	bodyBgs[9] = "http://music.163.com/song/media/outer/url?id=473873439.mp3";
+	bodyBgs[10] = "http://music.163.com/song/media/outer/url?id=1313107896.mp3";
+    bodyBgs[11] = "http://music.163.com/song/media/outer/url?id=1413585838.mp3";
+    bodyBgs[12] = "http://music.163.com/song/media/outer/url?id=1398663411.mp3";
+    bodyBgs[13] = "http://music.163.com/song/media/outer/url?id=1363948882.mp3";
+    bodyBgs[14] = "http://music.163.com/song/media/outer/url?id=493735012.mp3";
+	bodyBgs[15] = "http://music.163.com/song/media/outer/url?id=1411358329.mp3";
+	bodyBgs[16] = "http://music.163.com/song/media/outer/url?id=413812448.mp3";
+	var randomBgIndex = Math.round( Math.random() * 16 );
+	document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\'></audio>');
