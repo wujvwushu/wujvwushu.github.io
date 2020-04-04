@@ -40,7 +40,7 @@ html, body {
   left: 0;
   background: url("https://s1.ax1x.com/2020/04/04/G0lGkD.png") repeat-x 0px 0px;
   background-size: cover;
-  animation: posterDrop1 6000s linear infinite;
+  animation: posterDrop1 5000s linear infinite;
 }
 
 @keyframes posterDrop1 {
@@ -56,7 +56,7 @@ html, body {
   left: 0;
   background: url("https://s1.ax1x.com/2020/04/04/G0lMOx.png") repeat-x 0px 0px;
   background-size: cover;
-  animation: posterDrop2 8000s linear infinite;
+  animation: posterDrop2 7000s linear infinite;
 }
 
 @keyframes posterDrop2 {
